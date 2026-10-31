@@ -1,14 +1,13 @@
 # ZenWalk
-ZenWalk
 
 ZenWalk is a personal-safety and walking-companion mobile app prototype built with Python and Kivy. It combines a simple step-tracker dashboard with a three-level safety status system (Green / Yellow / Red) that can send your live location to trusted emergency contacts with a single tap.
 
 The idea: when you're walking alone, you shouldn't have to fumble through your phone to ask for help. ZenWalk puts "I'm safe", "I'm unsure" and "I'm in danger" one tap away. The step tracker UI ensures your potential attacker is not alerted of the fact that you are trying to get help.
 
 Features:-
-Onboarding / profile registration: on first launch, enter your name, phone number, age, up to 5 emergency contacts, a home address and up to 3 optional other addresses (office, college, other).\n
-Profile management: view and edit your saved details at any time from the dashboard.\n
-Step tracker dashboard: shows a "Steps Today" counter (currently simulated with a +100 button).\n
+Onboarding / profile registration: on first launch, enter your name, phone number, age, up to 5 emergency contacts, a home address and up to 3 optional other addresses (office, college, other).
+Profile management: view and edit your saved details at any time from the dashboard.
+Step tracker dashboard: shows a "Steps Today" counter (currently simulated with a +100 button).
 safety alerts:
 🟢 Safe (Green): marks you as safe, no action taken.
 🟡 Unsure (Yellow): composes an SMS asking contacts to stay alert and check in, including a Google Maps link to your location.
